@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react/cjs/react.development'
+import { useState, useEffect } from 'react/cjs/react'
 import Web3 from 'web3'
 import abi from "../public/abi.json"
 import BigNumber from "bignumber.js";
