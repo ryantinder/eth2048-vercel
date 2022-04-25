@@ -1,0 +1,157 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "game",
+        "type": "uint256"
+      }
+    ],
+    "name": "gameUpdate",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "createGame",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "dir",
+        "type": "uint256"
+      }
+    ],
+    "name": "move",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "game",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "dir",
+        "type": "uint256"
+      }
+    ],
+    "name": "newSquare",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "game",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "row",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      }
+    ],
+    "name": "checkSquare",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "game",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "row",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      }
+    ],
+    "name": "clearSquare",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "game",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "row",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "pos",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "val",
+        "type": "uint256"
+      }
+    ],
+    "name": "setSquare",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
