@@ -22,7 +22,7 @@ var contract = new web3.eth.Contract(abi, contractAddress)
 
 export default function Home() {
   const [game, setGame] = useState("")
-  const [wallet, setWallet] = useState()
+  const [wallet, setWallet] = useState("")
   async function requestAccount() {
     console.log("Requesting account");
 
