@@ -89,13 +89,12 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Create Next App</title>
-        <link rel="stylesheet" href='./index.css' />
       </Head>
 
       <main>
       <div className='buttonContainer'>
         <button className='importWalletButton' onClick={requestAccount}>
-          <Image src="/metamask.png" width={30} height={30} />
+          <Image src="/metamask.png" width={30} height={30} alt="Connect Metamask"/>
         </button>
         <button className="importWalletButton" onClick={paste}>
           < BiPaste size={30} color="grey"/>
