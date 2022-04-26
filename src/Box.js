@@ -1,12 +1,9 @@
 import React from 'react'
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react/cjs/react.production.min';
 
 export default function Box(props) {
   const [display, setDisplay] = useState(0);
   const [color, setColor] = useState("");
-  const changeColor = () => {
-    
-  }
   useEffect(() => {
     if (props.val == "0000000") {
       setDisplay("");
