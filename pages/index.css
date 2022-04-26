@@ -68,6 +68,10 @@
     border: none;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .importWalletButton {
     background-color: white;
     border: none;

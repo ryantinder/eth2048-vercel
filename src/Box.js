@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react/cjs/react.production.min';
+// import { useEffect, useState } from 'react/cjs/react.development';
 
 export default function Box(props) {
   const [display, setDisplay] = useState(0);
